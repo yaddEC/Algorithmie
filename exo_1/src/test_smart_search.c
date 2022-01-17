@@ -30,7 +30,7 @@ int partition(PokemonDef *list, int first, int last) {
 
 
 
-// Complexité de l'algorithme: ...
+// Complexité de l'algorithme: O(n^2)
 PokemonDef searchPokemonByName(const char* name)
 {
     int first = 0;
